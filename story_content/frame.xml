@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001111111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+  <layouts>
+    <layout name="npnxnanbsnfns00001111111" font="Bahnschrift" controllayout="npnxnanbsnfns00001111111" colorscheme="pxabnsnfns00001111111" string_table="pxabnsnfns00001111111" />
+    <layout name="pxabnsnfns00001111111" font="Bahnschrift" controllayout="pxabnsnfns00001111111" colorscheme="pxabnsnfns00001111111" string_table="pxabnsnfns00001111111" />
+    <layout name="npxnabnsnfns00001111111" font="Bahnschrift" controllayout="npxnabnsnfns00001111111" colorscheme="pxabnsnfns00001111111" string_table="pxabnsnfns00001111111" />
+    <layout name="npnxnanbnsnfns00001111111" font="Bahnschrift" controllayout="npnxnanbnsnfns00001111111" colorscheme="pxabnsnfns00001111111" string_table="pxabnsnfns00001111111" />
+    <layout name="pxabnsnfns00001111110" font="Bahnschrift" controllayout="pxabnsnfns00001111110" colorscheme="pxabnsnfns00001111111" string_table="pxabnsnfns00001111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Damage and Loss Assessment methodology" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="restricted" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Bahnschrift" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001111111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6264" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8E8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F4548" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0504D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001111111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Bahnschrift">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6hcHJfV9x56" displaytext="Damage and Loss Assessment Methodology" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hcHJfV9x56.6e1n8MvNSUe" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6hcHJfV9x56.6EUXmOWaEVs" displaytext="Course Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6hcHJfV9x56.6GF90yLCydI" displaytext="Who should take this course?" expand="false" type="slide" />
+            <slidelink slideid="_player.6hcHJfV9x56.6AHMkQ5o8Hm" displaytext="Get Started" expand="false" type="slide" />
+            <slidelink slideid="_player.6hcHJfV9x56.68cqSNNnFBR" displaytext="Meet &amp;apos;Damage &amp;amp; Loss Assessment&amp;apos; Team" expand="false" type="slide" />
+            <slidelink slideid="_player.6hcHJfV9x56.5pKupbbM38K" displaytext="Choose the Lesson" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5hYPQkDexMV" displaytext="Lesson-1: Need to Assess Disaster Impact on Agriculture" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hYPQkDexMV.5ZqUDUA6vDU" displaytext="Lesson-1: Need to Assess Disaster Impact on Agriculture" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5VSy5ryAfbs" displaytext="Lesson Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6GH0SabMuY6" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6nql5BdTCKc" displaytext="Agriculture and Disaster Occurences" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5pwqGXdtZ0B" displaytext="Types of emergency in agriculture" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5xfdVNtMUVO" displaytext="Hazard Classification" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6n82aPgMWON" displaytext="Effect of disasters in Agriculture" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6ir2JsVTe27" displaytext="Role of Resilient Agriculture" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6bRG1SEVoPX" displaytext="Test your knowledge 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.67yE2c6Gbez" displaytext="Test your knowledge 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6Lp7kIdKJOc" displaytext="Recent Occurrence of Disasters" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5y3ne39G0lc" displaytext="The share of impact: Agriculture vs rest of economy" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5pcpj7xqFoY" displaytext="Agriculture production loss due to disasters" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.67jjf3YlzjB" displaytext="Agriculture production loss due to disasters2" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5zjUhU9iYTd" displaytext="Profiling different disasters" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6VYjCmDMFH3" displaytext="Test your knowledge 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.5vutgGoZrSO" displaytext="Test your knowledge 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5hYPQkDexMV.6LdXr1LO1d0" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6dDFoHk78X2" displaytext="Lesson 2: Damage and Loss Assessment " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6dDFoHk78X2.5wtMhVgDy8e" displaytext="Lesson 2: Damage and Loss Assessment " expand="false" type="slide" />
+            <slidelink slideid="_player.6dDFoHk78X2.6Pylytul1pb" displaytext="Lesson Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6dDFoHk78X2.6oj9qG0nZDx" displaytext="Learning Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6hcHJfV9x56.6e1n8MvNSUe" slidebank="false" type="slide">damage and loss assessment methodology </slidetext>
+      <slidetext slideid="6hcHJfV9x56.6EUXmOWaEVs" slidebank="false" type="slide">  course overview the course on damage and loss assessment  methodology aims to make information gathering on damage and loss more holistic and precise, and can be used to : assess the impact of disasters and extreme events on agriculture; provide an evidence base for disaster risk reduction/ management (drr/m) and resilience policy and action; help to monitor the achievements of specific global targets towards reducing economic loss from disasters and extreme events.</slidetext>
+      <slidetext slideid="6hcHJfV9x56.6GF90yLCydI" slidebank="false" type="slide"> who should take this course? policy makers technical officers are ministry of disaster/ agriculture statisticians</slidetext>
+      <slidetext slideid="6hcHJfV9x56.6AHMkQ5o8Hm" slidebank="false" type="slide">  get started first name last name please enter your name to proceed  welcome to the course  hello! i’m maria- a specialist in the damage and loss methodology.  hello! i’m maria- a specialist in the damage and loss methodology.  type your first name here type your last name here %firstname% %lastname%</slidetext>
+      <slidetext slideid="6hcHJfV9x56.68cqSNNnFBR" slidebank="false" type="slide">hello! i’m aditi. i work in the department of planning in the ministry of agriculture.  meet 'damage &amp; loss assessment' team meet my team.  hello! i’m nur. i work as a statistician at national statistics agency.</slidetext>
+      <slidetext slideid="6hcHJfV9x56.5pKupbbM38K" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue    course content there are two lessons in this course. please click at either of the lesson to read more.  lesson 1:  need to assess disaster impact on agriculture lesson 1:  need to assess disaster impact on agriculture lesson 1:  need to assess disaster impact on agriculture lesson 1:  need to assess disaster impact on agriculture lesson 2:  damage and loss assessment methodology lesson 2:  damage and loss assessment methodology lesson 2:  damage and loss assessment methodology lesson 2:  damage and loss assessment methodology</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5ZqUDUA6vDU" slidebank="false" type="slide">lesson 1:  need to assess disaster impact on agriculture </slidetext>
+      <slidetext slideid="5hYPQkDexMV.5VSy5ryAfbs" slidebank="false" type="slide">need to assess disaster impact on agriculture 1 lesson overview this lesson introduces the concept of disaster impact assessment in agriculture. it explains how agriculture is  affected by disasters,  illustrates the overall growing rate of disaster occurrence and  outlines the significant share of economic losses absorbed by the agriculture sector.          25 min.</slidetext>
+      <slidetext slideid="5hYPQkDexMV.6GH0SabMuY6" slidebank="false" type="slide">learning objectives at the end of the lesson, you will be able to: identify different disasters and extreme events; outline the different types of threat that affect agriculture; describe recent trends in disaster occurrence; compare the relative share of impact absorbed by agriculture vis-à-vis other productive sectors; and illustrate the importance of addressing information gaps on disaster impact. need to assess disaster impact on agriculture 1 </slidetext>
+      <slidetext slideid="5hYPQkDexMV.6nql5BdTCKc" slidebank="false" type="slide">  understanding disasters disasters are often a result of the combination of the following: exposure to a hazard; conditions of vulnerability that are present; insufficient capacity or measures to reduce or cope with the potential negative consequences. disaster impacts may include loss off life, injury, disease and other negative effects on human physical, mental and social well-being, together with damage to property, destruction of assets, loss of services, social and economic disruption and environmental degradation.     volatile nature of disasters disasters can strike suddenly - such as earthquakes or volcanic eruptions or develop slowly over time, as in the case of droughts.   x coping mechanism natural hazard induced disasters in the context of ongoing conflicts or situations of weak governance, can lead to protracted crises- a situation where a significant proportion of the population is acutely vulnerable to death, disease and disruption of livelihoods over a prolonged period of time.  x far-reaching consequences  natural hazard induced disasters in the context of ongoing conflicts or situations of weak governance, can lead to protracted crises- a situation where a significant proportion of the population is acutely vulnerable to death, disease and disruption of livelihoods over a prolonged period of time.  x complex pattern of occurrence  disasters can occur independently, sequentially or in a combined manner with mutually magnifying effects. disasters caused by natural hazards can coincide with other types of crisis such as violent conflict. such complex emergencies pose serious challenges to agricultural production and food security, and demand targeted response and recovery actions.  x    agriculture and disaster occurence  understanding disasters understanding disasters understanding disasters understanding disasters    nature of disasters        &gt;  volatility nature of disasters        &gt;  volatility nature of disasters        &gt;  volatility  nature of disasters        &gt;  volatility  nature of disasters        &gt;  volatility pattern of disasters       &gt; complexity pattern of disasters       &gt; complexity pattern of disasters       &gt; complexity  pattern of disasters       &gt; complexity  pattern of disasters       &gt; complexity consequences                &gt;  far-reaching consequences                &gt;  far-reaching consequences                &gt;  far-reaching  consequences                &gt;  far-reaching  consequences                &gt;  far-reaching coping with disasters   &gt; livelihood  coping with disasters   &gt; livelihood  coping with disasters   &gt; livelihood   coping with disasters   &gt; livelihood   coping with disasters   &gt; livelihood  1 need to assess disaster impact on agriculture</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5pwqGXdtZ0B" slidebank="false" type="slide">conflicts: civil unrest, regime change, interstate conflicts and civil wars. protracted crisis: complex and prolonged emergencies which combine multiple types of conflict with other shocks. conflicts: civil unrest, regime change, interstate conflicts and civil wars. protracted crisis: complex and prolonged emergencies which combine multiple types of conflict with other shocks. conflicts: civil unrest, regime change, interstate conflicts and civil wars. protracted crisis: complex and prolonged emergencies which combine multiple types of conflict with other shocks. biological hazards that can spread along the food chain, include: animal disease, e.g. influence viruses, etc. plant pests and diseases e.g. locusts, fruit flies,  bacteria, virus and parasites causing food safety issues, epidemics or pandemics e.g. covid-19. it include: geophysical disasters (earthquakes, tsunamis, mass movements); hydrometeorological/ climate - related disasters (droughts, floods, extreme temperatures, wild fires). it include: geophysical disasters (earthquakes, tsunamis, mass movements); hydrometeorological/ climate - related disasters (droughts, floods, extreme temperatures, wild fires). types of emergency in agriculture 1  need to assess disaster impact on agriculture agriculture may be impacted by all types of hazardous events. there are three main types of emergency in agriculture. let’s take a brief look at each. natural hazard induced disasters food chain crisis conflicts and protracted crisis + + +</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5xfdVNtMUVO" slidebank="false" type="slide">multi-hazard means the selection of multiple major hazards that a country faces; the specific contexts where hazardous events may occur simultaneously, cumulatively over time, and taking into account the interrelated events.   over time, and taking into account the interrelated events.  x technological hazards  technological hazards originate from technological or industrial conditions, dangerous procedures, infrastructure failures or specific human activities.  examples include industrial pollution, dam failure, factory explosions, nuclear radiations, transport accidents, fires and chemical spills and toxic waste. technological hazards may also arise directly as a result of the impacts of a natural hazard event. x environmental hazards environmental hazards may include chemical, natural and biological hazards. they can be created by environmental degradation or physical or chemical pollution in the air, water and soil.  environmental hazards environmental hazards may include chemical, natural and biological hazards. they can be created by environmental degradation or physical or chemical pollution in the air, water and soil.   however, many of the processes that fall into this category may be termed drivers of risk and exposure rather than extreme events in themselves.  examples are soil degradation, deforestation, loss off biodiversity, salinisation and sea-level rise.  however, many of the processes that fall into this category may be termed drivers of risk and exposure rather than extreme events in themselves.  examples are soil degradation, deforestation, loss off biodiversity, salinisation and sea-level rise. x biological hazards biological hazards are of organic origin or conveyed by biological vectors, including pathogenic micro-organisms, toxins and bioactive substances.  biological hazards biological hazards are of organic origin or conveyed by biological vectors, including pathogenic micro-organisms, toxins and bioactive substances.   examples include: plant pests and diseases (e.g. desert locusts, wheat rusts etc.); trans boundary animal diseases (e.g. rift valley fever, peste des petits ruminants, high pathogenic avian influenza etc.); other bacteria, virus and parasites causing large- scale outbreaks, epidemics or pandemics such as covid-19, ebola and zika virus.  examples include: plant pests and diseases (e.g. desert locusts, wheat rusts etc.); trans boundary animal diseases (e.g. rift valley fever, peste des petits ruminants, high pathogenic avian influenza etc.); other bacteria, virus and parasites causing large- scale outbreaks, epidemics or pandemics such as covid-19, ebola and zika virus. x  geological or geophysical hazards geological or geophysical hazards originate from internal earth processes.  examples include earthquakes, volcanic activity and emissions, and related geophysical processes such as mass movements’ landslides, rockslides, surface collapses and debris or mud flows.    geological or geophysical hazards geological or geophysical hazards originate from internal earth processes.  examples include earthquakes, volcanic activity and emissions, and related geophysical processes such as mass movements’ landslides, rockslides, surface collapses and debris or mud flows.    hydro meteorological factors are important contributors to some of these processes.  hydro meteorological factors are important contributors to some of these processes. x  hydro meteorological hazards hydro meteorological hazards are of atmospheric, hydrological or oceanographic origin. examples include: ·	tropical cyclones (typhoons and hurricanes); ·	floods (including flash floods); ·	drought, heat waves and cold spells;  ·	coastal storm surges.   hydro meteorological hazards hydro meteorological hazards are of atmospheric, hydrological or oceanographic origin. examples include: ·	tropical cyclones (typhoons and hurricanes); ·	floods (including flash floods); ·	drought, heat waves and cold spells;  ·	coastal storm surges.  hydro meteorological condition may also be a factor in other hazards such as landslides, wild land fires, locust plagues, epidemics and in the transport and dispersal of toxic substances and volcanic eruption material. hydro meteorological condition may also be a factor in other hazards such as landslides, wild land fires, locust plagues, epidemics and in the transport and dispersal of toxic substances and volcanic eruption material. x        hazard classification assessing disasters assessing disasters assessing disasters assessing disasters hydro- meteorological hazards v hydro- meteorological hazards v hydro- meteorological hazards v  hydro- meteorological hazards v  hydro- meteorological hazards v  geological hazards v  geological hazards v  geological hazards v   geological hazards v   geological hazards v  biological hazards v biological hazards v biological hazards v   biological hazards v   biological hazards v  environmental hazards v  environmental hazards v  environmental hazards v   environmental hazards v   environmental hazards v  technological hazards v    technological hazards v    technological hazards v     technological hazards v     technological hazards v    multi  hazards v  multi  hazards v  multi  hazards v   multi  hazards v   multi  hazards v           1 need to assess disaster impact on agriculture </slidetext>
+      <slidetext slideid="5hYPQkDexMV.6n82aPgMWON" slidebank="false" type="slide">wider impacts reduced food production. reduced availability and access to food. magnified levels of hunger and undernourishment. disrupted rural livelihoods. economic impacts such as reduction in agricultural gdp and exports. increased imports of agricultural products. forestry loss of biodiversity. damage to forest systems. increase in soil erosion. livestock disease outbreaks. poor animal conditions. livestock mortality. reduction in animal products. crops increased susceptibility to plant pests and diseases. crop failure or yield loss. loss of arable land.      effect of disasters in agriculture click on the sectors below to learn more 1  need to assess disaster impact on agriculture forestry livestock wider impact crops</slidetext>
+      <slidetext slideid="5hYPQkDexMV.6ir2JsVTe27" slidebank="false" type="slide"> role of resilient agriculture 1  need to assess disaster impact on agriculture disasters and extreme events can devastate livelihoods, food chains and stability and potentially lead to economic recession. resilient       agriculture plays a key role in balancing the social, economic and environmental aspects of development providing rural populations with:   improved living standards   decent rural employment  sustainable livelihoods resilience   resilience is the process of adapting well in the face of adversity, trauma, tragedy, threats, or significant sources of stress—such as family and relationship problems, serious health problems, or workplace and financial stressors.   resilience   resilience is the process of adapting well in the face of adversity, trauma, tragedy, threats, or significant sources of stress—such as family and relationship problems, serious health problems, or workplace and financial stressors.   resilience   resilience is the process of adapting well in the face of adversity, trauma, tragedy, threats, or significant sources of stress—such as family and relationship problems, serious health problems, or workplace and financial stressors.   resilience   resilience is the process of adapting well in the face of adversity, trauma, tragedy, threats, or significant sources of stress—such as family and relationship problems, serious health problems, or workplace and financial stressors.    </slidetext>
+      <slidetext slideid="5hYPQkDexMV.6bRG1SEVoPX" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  based on your understanding of disasters, which hazards belong to which subgroup? flood hydro-meteorological hazard earthquake geophysical hazard industrial pollution technological hazard desert locust biological hazard deforestation environmental hazard test your knowledge 1 need to assess disaster impact on agriculture </slidetext>
+      <slidetext slideid="5hYPQkDexMV.67yE2c6Gbez" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  food chain crisis food chain crisis food chain crisis food chain crisis food chain crisis food chain crisis geophysical disasters food chain crisis food chain crisis food chain crisis food chain crisis geophysical disasters environmental hazards geophysical disasters geophysical disasters geophysical disasters geophysical disasters environmental hazards civil unrest environmental hazards environmental hazards environmental hazards environmental hazards civil unrest conflict and protracted crisis civil unrest civil unrest civil unrest civil unrest conflict and protracted crisis natural hazard induced disasters conflict and protracted crisis conflict and protracted crisis conflict and protracted crisis conflict and protracted crisis natural hazard induced disasters test your knowledge 1  need to assess disaster impact on agriculture what are the three main categories of emergency in agriculture? please select the answer of your choice and click on check answer</slidetext>
+      <slidetext slideid="5hYPQkDexMV.6Lp7kIdKJOc" slidebank="false" type="slide">  understanding disasters disasters are often a result of the combination of the following: exposure to a hazard; conditions of vulnerability that are present; insufficient capacity or measures to reduce or cope with the potential negative consequences. disaster impacts may include loss off life, injury, disease and other negative effects on human physical, mental and social well-being, together with damage to property, destruction of assets, loss of services, social and economic disruption and environmental degradation.      1 recent occurrence of disasters in developing countries  need to assess disaster impact on agriculture data source data source data source data source     disasters are complex in nature. the frequency of disasters has increased in the first 20 years of this century. the rate of geophysical disasters  has remained stable over time. climate and weather based disasters has increased since 970s.</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5y3ne39G0lc" slidebank="false" type="slide">26% of the impact of medium to large scale natural disasters was absorbed in the agriculture sector in low and middle income countries. source: fao (2020)   however, some disasters impact agriculture much more heavily. for example, 82% off the impact of drought is on the agriculture sector, with crops and livestock worst affected.  the share of impact: agriculture vs rest of economy 1 need to assess disaster impact on agriculture   in countries where a large number of small holders rely on agricultural production for their sustenance and livelihoods, declines in production flows pose serious treats to food security. 2008-2018</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5pcpj7xqFoY" slidebank="false" type="slide">1 need to assess disaster impact on agriculture  agriculture production loss due to disasters loss of potential production has a severe economic impact. between 2008-2018, low and lower middle income countries lost approximately usd 108 billion due to agricultural production loss following disasters.</slidetext>
+      <slidetext slideid="5hYPQkDexMV.67jjf3YlzjB" slidebank="false" type="slide">1 need to assess disaster impact on agriculture  agriculture production loss due to disasters 29 latin america  &amp; caribbian 30 49 sub-sahara &amp; north africa asia  (loss up to 50% of total loss) crop and livestock production loss 2008-2018, in billion us dollars (faostat, 2019)</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5zjUhU9iYTd" slidebank="false" type="slide">1 need to assess disaster impact on agriculture  profiling different disasters       7% loss in agriculture 13% loss in agriculture 29% loss in agriculture 19% loss in agriculture 8% loss in agriculture 23% loss in agriculture                                                                           extreme temperatures drought earthquake floods biological  disasters storms source: faostat, 2008-2018</slidetext>
+      <slidetext slideid="5hYPQkDexMV.6VYjCmDMFH3" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what share of all impact caused be medium to large scale natural hazards induced disasters is absorbed by the agriculture sector? 1% 1% 1% 1% 1% 1% 26% 26% 26% 26% 26% 26% 52% 52% 52% 52% 52% 52% 82% 82% 82% 82% 82% 82% 99% 99% 99% 99% 99% 99% 1 need to assess disaster impact on agriculture  test your knowledge</slidetext>
+      <slidetext slideid="5hYPQkDexMV.5vutgGoZrSO" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  from the disasters listed below, identify the one that impacts the agriculture sector more than other sectors.     1 need to assess disaster impact on agriculture  test your knowledge please click at the image of your choice            </slidetext>
+      <slidetext slideid="5hYPQkDexMV.6LdXr1LO1d0" slidebank="false" type="slide">1 need to assess disaster impact on agriculture  summary lorem ipsum dolor sit amet, consectetuer adipiscing elit. maecenas porttitor congue massa.  fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. nunc viverra imperdiet enim. fusce est. vivamus a tellus. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  proin pharetra nonummy pede. mauris et orci.</slidetext>
+      <slidetext slideid="6dDFoHk78X2.5wtMhVgDy8e" slidebank="false" type="slide">lesson 2:  damage and loss assessment  methodology </slidetext>
+      <slidetext slideid="6dDFoHk78X2.6Pylytul1pb" slidebank="false" type="slide">damage and loss assessment  methodology 2 lesson overview this lesson introduces the concept of disaster impact assessment in agriculture. it explains how agriculture is  affected by disasters,  illustrates the overall growing rate of disaster occurrence and  outlines the significant share of economic losses absorbed by the agriculture sector.          25 min.</slidetext>
+      <slidetext slideid="6dDFoHk78X2.6oj9qG0nZDx" slidebank="false" type="slide">learning objectives at the end of the lesson, you will be able to: identify different disasters and extreme events; outline the different types of threat that affect agriculture; describe recent trends in disaster occurrence; compare the relative share of impact absorbed by agriculture vis-à-vis other productive sectors; and illustrate the importance of addressing information gaps on disaster impact. need to assess disaster impact on agriculture 2 </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Bahnschrift' style='font-size: 11px;' size='11' color='#545454'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Disaster">DisasterDisasterDisasterDisasterDisaster DisasterDisasterDisaster</term>
+      <term title="Earthquake">EarthquakeEarthquakeEarthquake</term>
+      <term title="Hazard">HazardHazardHazard</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
